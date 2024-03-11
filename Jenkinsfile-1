@@ -10,7 +10,7 @@ pipeline {
     }
        stage('show user') {
       steps {
-        sh 'id -a'
+        sh 'id'
       }
     }
   }
