@@ -8,5 +8,10 @@ pipeline {
         sh 'node --version'
       }
     }
+       stage('show user') {
+      steps {
+        sh 'id -a'
+      }
+    }
   }
 }
